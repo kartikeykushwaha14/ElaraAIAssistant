@@ -1,8 +1,8 @@
 # ElaraAIAssistant 🤖✨
 
-ElaraAIAssistant is an open-source Android application designed to be your personal AI assistant. Built with cutting-edge technologies, Elara aims to help you with everyday tasks like managing reminders, notifications, and more, all through seamless AI-powered features.
+**ElaraAIAssistant** is an open-source AI assistant built in Python. It utilizes speech recognition, text-to-speech, and machine learning to provide smart, voice-activated assistance. This project leverages natural language processing (NLP) and basic machine learning techniques to understand user commands and provide helpful responses.
 
-Whether you're new to Android development, AI, or machine learning, this project serves as a great learning tool for building intelligent apps.
+This project is great for anyone looking to learn about voice recognition, machine learning, and building interactive AI systems.
 
 ![ElaraAIAssistant](https://link-to-your-image.com/preview.jpg) <!-- Replace with actual image URL -->
 
@@ -10,43 +10,41 @@ Whether you're new to Android development, AI, or machine learning, this project
 
 ## 🚀 Features
 
-- **Voice Recognition**: Speak directly to Elara to perform tasks hands-free.
-- **Smart Notifications**: Receive context-based notifications when it matters.
-- **Task Management**: Organize tasks and set reminders with natural language input.
-- **AI Integration**: Powered by machine learning models to offer personalized experiences.
-- **Room Database**: Data storage for tasks, reminders, and settings.
-- **Dependency Injection**: Clean architecture for easy maintainability.
+- **Speech Recognition**: Understand voice commands from the user.
+- **Text-to-Speech**: Elara responds back using voice.
+- **Machine Learning**: Uses `Naive Bayes` for text classification and command recognition.
+- **Natural Language Processing**: Process and understand user inputs intelligently.
+- **Interactive Assistant**: Perform actions like setting reminders, answering questions, etc.
 
 ---
 
 ## 🛠 Technologies Used
 
-- **Kotlin**: The official programming language for Android development.
-- **Room Database**: A local database for saving user data.
-- **Hilt for Dependency Injection**: To improve app scalability and maintainability.
-- **Jetpack Compose**: For modern and declarative UI development.
-- **AI & ML Integration**: Leveraging basic machine learning models for smarter assistance.
+- **Python**: The core programming language for the application.
+- **SpeechRecognition (`speech_recognition`)**: Converts speech to text to understand commands.
+- **Text-to-Speech (`pyttsx3`)**: Elara responds using text-to-speech.
+- **Scikit-learn (`sklearn`)**: For machine learning models, including text classification with Naive Bayes.
+- **Natural Language Processing**: Using `CountVectorizer` and `NaiveBayes` for understanding commands.
 
 ---
 
 ## 📸 Screenshots
 
-Here are a few screenshots of the app in action:
+Here are some examples of how Elara interacts with users:
 
 ![Screenshot 1](https://link-to-your-image.com/screenshot1.jpg)  
-*Main screen with voice input and notifications*
+*Elara responding to a voice command.*
 
 ![Screenshot 2](https://link-to-your-image.com/screenshot2.jpg)  
-*Task management screen with reminders and due tasks*
+*The assistant recognizing a user input and giving a verbal response.*
 
 ---
 
 ## 📥 Installation
 
-To get started with **ElaraAIAssistant** on your local machine, follow these steps:
+To get started with **ElaraAIAssistant** on your local machine:
 
-1. Clone this repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/ElaraAIAssistant.git
-
