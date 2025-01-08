@@ -4,7 +4,7 @@
 
 This project is great for anyone looking to learn about voice recognition, machine learning, and building interactive AI systems.
 
-![ElaraAIAssistant](https://link-to-your-image.com/preview.jpg) <!-- Replace with actual image URL -->
+![ElaraAIAssistant](https://github.com/kartikeykushwaha14/ElaraAIAssistant/blob/master/assets/textures/Screenshot%202025-01-08%20160034.png) <!-- Replace with actual image URL -->
 
 ---
 
